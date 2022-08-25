@@ -2,7 +2,7 @@
     --white: #ffffff;
     --lightGray: hsl(212, 45%, 89%);
     --grayishBlue: hsl(220, 15%, 55%);
-    --darkBlue: Dark blue: hsl(218, 44%, 22%);
+    --darkBlue: hsl(218, 44%, 22%);
 }
 
 * {
@@ -15,30 +15,27 @@ body {
     align-items: center;
     justify-content: center;
     margin: 100px auto;
-    
 }
 
 .container {
-    align-items: center;
+    //align-items: center;
     max-width: 320px;
     max-height: 497px;
     border: 1px solid black;
     background: var(--white);
     border-radius: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: auto;
 
 }
 
-img {
-    height: 288px;
+.code img{
     width: 288px;
-    align-items: center;
-    border: 10px solid white;
-    border-radius: 16px;
-    margin-top: 10px;
-    margin-left: auto;
+    height: 288px;
+    border-radius: 25px;
+    padding: 16px;
+    overflow: hidden;
 }
 
 .textbox {
@@ -46,6 +43,7 @@ img {
     margin-right: 16px;
     width: 288px;
     width: 256px;
+    padding-bottom: 20px;
 }
 
 /* Text Formats */
@@ -62,7 +60,7 @@ h1 {
 p {
     font-size: 15px;
     //letter-spacing: 0.1875px;
-    font-weight: 400px;
+    font-weight: 400;
     font-family: 'Outfit';
     color: var(--grayishBlue);   
     text-align: center;
